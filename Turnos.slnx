@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Turnos.Api/Turnos.Api.csproj" />
+  <Project Path="Turnos.BusinessLogic/Turnos.BusinessLogic.csproj" />
+  <Project Path="Turnos.Client/Turnos.Client.csproj" />
+  <Project Path="Turnos.DataAccess/Turnos.DataAccess.csproj" />
+  <Project Path="Turnos.Domain/Turnos.Domain.csproj" />
+  <Project Path="Turnos.Tests/Turnos.Tests.csproj" />
+</Solution>
