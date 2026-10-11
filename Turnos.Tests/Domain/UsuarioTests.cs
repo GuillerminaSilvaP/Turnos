@@ -10,5 +10,10 @@ public class UsuarioTests
     {
         Assert.ThrowsExactly<ArgumentException>(() => new Usuario("", "guille@mail.com"));
     }
+    
+    [TestMethod]
+    public void CrearUsuario_EmailSinArroba_LanzaExcepcion(){ 
+       Assert.ThrowsExactly<ArgumentException>(() => new Usuario ("juan", "juangmail.com"));
+}
 
 } 
