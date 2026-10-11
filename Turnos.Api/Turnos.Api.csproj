@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Turnos.Domain\Turnos.Domain.csproj" />
+    <ProjectReference Include="..\Turnos.BusinessLogic\Turnos.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Turnos.DataAccess\Turnos.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

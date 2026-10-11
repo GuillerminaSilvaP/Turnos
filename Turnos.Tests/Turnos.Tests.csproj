@@ -8,11 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" Version="4.21.0" />
     <PackageReference Include="MSTest" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Turnos.Domain\Turnos.Domain.csproj" />
+    <ProjectReference Include="..\Turnos.BusinessLogic\Turnos.BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>
